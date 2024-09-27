@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="MOD" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ee62e1df-d8f9-4bc9-888c-8acc6a586d8f">
+	<property name="ireport.zoom" value="2.143588810000043"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="528"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#D9C3C3">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#FFE6E6">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Crosstab Data Text" hAlign="Center"/>
+	<subDataset name="GRAPH_DATA" uuid="e532d421-51ad-4665-af53-b74d0ed508f7">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="GD_DD1" class="java.lang.String"/>
+		<field name="GD_DD2" class="java.lang.String"/>
+		<field name="GD_DD3" class="java.lang.String"/>
+		<field name="GD_DD4" class="java.lang.String"/>
+		<field name="GD_DD5" class="java.lang.String"/>
+		<field name="GD_DD7" class="java.lang.String"/>
+		<field name="GD_DD6" class="java.lang.String"/>
+		<field name="GD_DD8" class="java.lang.String"/>
+		<field name="GD_MC1" class="java.lang.String"/>
+		<field name="GD_MC2" class="java.lang.String"/>
+		<field name="GD_MC3" class="java.lang.String"/>
+		<field name="GD_MC4" class="java.lang.String"/>
+		<field name="GD_MC5" class="java.lang.String"/>
+		<field name="GD_MC6" class="java.lang.String"/>
+		<field name="GD_MC7" class="java.lang.String"/>
+		<field name="GD_MC8" class="java.lang.String"/>
+	</subDataset>
+	<subDataset name="dataset1" uuid="ebc0a8a3-b5bd-434d-afa9-3990e18ec44d"/>
+	<field name="T_Email" class="java.lang.String"/>
+	<field name="T_Fax" class="java.lang.String"/>
+	<field name="T_Cell" class="java.lang.String"/>
+	<field name="T_Branch Address" class="java.lang.String"/>
+	<field name="T_Branch Name" class="java.lang.String"/>
+	<field name="T_Website" class="java.lang.String"/>
+	<field name="PH_Job" class="java.lang.String"/>
+	<field name="PH_TraceNo" class="java.lang.String"/>
+	<field name="PH_Date Reported" class="java.lang.String"/>
+	<field name="PH_Project" class="java.lang.String"/>
+	<field name="PH_HEADER" class="java.lang.String"/>
+	<field name="SMP_SampleNo" class="java.lang.String"/>
+	<field name="SMP_SamplingContainer" class="java.lang.String"/>
+	<field name="SMP_MassOfSample" class="java.lang.String"/>
+	<field name="SMP_MoistOfSample" class="java.lang.String"/>
+	<field name="SMP_Road1" class="java.lang.String"/>
+	<field name="SMP_Road2" class="java.lang.String"/>
+	<field name="SMP_Chainage" class="java.lang.String"/>
+	<field name="SMP_Layer" class="java.lang.String"/>
+	<field name="SMP_DateRec" class="java.lang.String"/>
+	<field name="SMP_DateSample" class="java.lang.String"/>
+	<field name="SMP_ClientMark" class="java.lang.String"/>
+	<field name="SMP_Colour" class="java.lang.String"/>
+	<field name="SMP_Materia" class="java.lang.String"/>
+	<field name="GD_point1" class="java.lang.String"/>
+	<field name="GD_point2" class="java.lang.String"/>
+	<field name="GD_point3" class="java.lang.String"/>
+	<field name="GD_point4" class="java.lang.String"/>
+	<field name="GD_point5" class="java.lang.String"/>
+	<field name="GD_point6" class="java.lang.String"/>
+	<field name="GD_point7" class="java.lang.String"/>
+	<field name="GD_point8" class="java.lang.String"/>
+	<field name="GD_DD1" class="java.lang.String"/>
+	<field name="GD_DD2" class="java.lang.String"/>
+	<field name="GD_DD3" class="java.lang.String"/>
+	<field name="GD_DD4" class="java.lang.String"/>
+	<field name="GD_DD5" class="java.lang.String"/>
+	<field name="GD_DD7" class="java.lang.String"/>
+	<field name="GD_DD6" class="java.lang.String"/>
+	<field name="GD_DD8" class="java.lang.String"/>
+	<field name="GD_MC1" class="java.lang.String"/>
+	<field name="GD_MC2" class="java.lang.String"/>
+	<field name="GD_MC3" class="java.lang.String"/>
+	<field name="GD_MC4" class="java.lang.String"/>
+	<field name="GD_MC5" class="java.lang.String"/>
+	<field name="GD_MC6" class="java.lang.String"/>
+	<field name="GD_MC7" class="java.lang.String"/>
+	<field name="GD_MC8" class="java.lang.String"/>
+	<field name="RP_MDD" class="java.lang.String"/>
+	<field name="RP_DEV" class="java.lang.String"/>
+	<field name="RP_REM" class="java.lang.String"/>
+	<field name="RP_OMC" class="java.lang.String"/>
+	<field name="RP_CAPTURER" class="java.lang.String"/>
+	<field name="RP_BRANCHMGR" class="java.lang.String"/>
+	<field name="RP_SIGNETORY" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="752" splitType="Stretch">
+			<frame>
+				<reportElement style="table" x="58" y="152" width="444" height="195" uuid="b2989859-7e74-4145-9559-b736ad726979"/>
+				<staticText>
+					<reportElement x="0" y="0" width="84" height="15" uuid="593a7d53-0726-475e-bafa-f9b30ade8dba"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[SampleNo]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="15" width="84" height="15" uuid="6d5ed4b1-915f-4e85-9d47-79ebee1fcaa5"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[SamplingContainer]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="30" width="84" height="15" uuid="d1863586-997b-4ade-8623-bb29eb05aabb"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[MassOfSample]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="45" width="84" height="15" uuid="2f4b1a51-3f67-441d-b13a-05760480e2bf"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[SMP_MoistOfSample]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="60" width="84" height="15" uuid="6b233a45-1332-4f95-9eb9-ab7c58d10a2c"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[SMP_Road1]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="75" width="84" height="15" uuid="49890bf5-5ea4-4e93-a7fd-9177784e9c63"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[SMP_Road2]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="90" width="84" height="15" uuid="39e9fe58-77e1-41d1-9b88-c777f2b36471"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[SMP_Chainage]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="105" width="84" height="15" uuid="662c9ed6-0a67-4c00-ab1d-ef614b06ba73"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[SMP_Layer]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="120" width="84" height="15" uuid="5be209d4-8465-48f3-b6df-2fdd5664017a"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[SMP_DateRec]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="135" width="84" height="15" uuid="be09895e-88c4-4056-aca1-df2c34e3155a"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[SMP_DateSample]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="150" width="84" height="15" uuid="f9d369a7-dcd2-4e3d-9107-e77459c5156d"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[SMP_ClientMark]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="165" width="84" height="15" uuid="a53d12f2-df5f-48a8-ad98-674a9362ca3a"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[SMP_Colour]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="180" width="84" height="15" uuid="14b0e603-2cd2-4609-916b-251acb9caf42"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[SMP_Materia]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="84" y="0" width="90" height="15" uuid="f8ab10a7-92b7-4d79-8bff-024c32135f58"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_SampleNo}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="84" y="15" width="90" height="15" uuid="baec7a7e-aa61-47ea-8c19-db590a528a6c"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_SamplingContainer}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="84" y="30" width="90" height="15" uuid="c0abcc3e-1601-465e-b88d-d374003948f5"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_MassOfSample}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="84" y="45" width="90" height="15" uuid="8d03fa5e-d52e-4c3f-8faa-f798e2ac25fa"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_MoistOfSample}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="84" y="60" width="90" height="15" uuid="1d46b21c-067b-4996-a3ba-577545e6bf45"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Road1}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="84" y="75" width="90" height="15" uuid="272ac74d-8483-4548-9d2e-d3092857be1c"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Road2}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="84" y="90" width="90" height="15" uuid="6407c0d7-8b71-4cf0-b3bf-a8c7eea5e738"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Chainage}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="84" y="105" width="90" height="15" uuid="a62f8f09-f8d8-4c34-9e89-8decdfe3bbf8"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Layer}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="84" y="120" width="90" height="15" uuid="891be924-d691-4a5a-bb22-d1bccdb52f80"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_DateRec}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="84" y="135" width="90" height="15" uuid="319c3e4e-d97d-47aa-9a92-adbf12c4142a"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_DateSample}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="84" y="150" width="90" height="15" uuid="f901b74d-5409-48bd-a8b7-7796b5b4d594"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_ClientMark}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="84" y="165" width="90" height="15" uuid="324dee14-c2df-4377-8fd4-3c5bb40bbd4b"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Colour}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="84" y="180" width="90" height="15" uuid="ff9f46bf-7cf0-4215-82cf-f533294c49d0"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Materia}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="174" y="0" width="90" height="15" uuid="ca38bc4b-82a1-4ce4-b967-7ac777effea7"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_SampleNo}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="174" y="15" width="90" height="15" uuid="669b8050-bbf3-4172-8a58-3a00ece625da"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_SamplingContainer}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="174" y="30" width="90" height="15" uuid="495454f3-012b-4aa8-8759-fd1b67ecfe0f"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_MassOfSample}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="174" y="45" width="90" height="15" uuid="fac234dd-49dc-4eef-a6ec-dc9b57436220"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_MoistOfSample}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="174" y="60" width="90" height="15" uuid="1b31bf77-245c-4b93-aa09-d49afad00010"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Road1}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="174" y="75" width="90" height="15" uuid="a4292fe5-9a63-4794-87c0-448834d74a72"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Road2}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="174" y="90" width="90" height="15" uuid="3712c503-6619-483c-b062-36d18cc10922"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Chainage}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="174" y="105" width="90" height="15" uuid="6b44bce9-61e5-4118-afe2-90e8d6b7d73d"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Layer}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="174" y="120" width="90" height="15" uuid="31ad0ee5-4064-49a0-8ed7-50a397dbb442"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_DateRec}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="174" y="135" width="90" height="15" uuid="78aedc93-fb1e-47d8-b4cc-5ac18097b140"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_DateSample}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="174" y="150" width="90" height="15" uuid="11ea8892-0d88-4024-bc13-448c5adbb7e0"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_ClientMark}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="174" y="165" width="90" height="15" uuid="930a27a9-d63f-4596-aeaf-25052a23457b"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Colour}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="174" y="180" width="90" height="15" uuid="f2cb575a-8dfa-4fc7-9c2a-439041d74434"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Materia}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="264" y="0" width="90" height="15" uuid="4ee036a9-ce4f-4bfe-9c2a-f70441496fc1"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_SampleNo}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="264" y="15" width="90" height="15" uuid="6bc46615-2393-4294-a742-d8350e32d394"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_SamplingContainer}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="264" y="30" width="90" height="15" uuid="7374ce72-43ca-4fb1-8cfb-469a8fa83b0a"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_MassOfSample}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="264" y="45" width="90" height="15" uuid="89a833d5-e0fd-4c52-b65d-c063408f7a76"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_MoistOfSample}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="264" y="60" width="90" height="15" uuid="a859d575-6739-4d1e-8fa3-17a4e9bcaf48"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Road1}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="264" y="75" width="90" height="15" uuid="ee66d0c9-e7a3-4af4-957d-38879875f3fd"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Road2}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="264" y="90" width="90" height="15" uuid="e1c021b1-2ff4-4cf8-9741-59ef46236e2a"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Chainage}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="264" y="105" width="90" height="15" uuid="666959cf-38e4-4a6c-a2a7-41c5ffeb2dfe"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Layer}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="264" y="120" width="90" height="15" uuid="30eb1326-af12-481d-a00e-d1d64e9f0eb5"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_DateRec}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="264" y="135" width="90" height="15" uuid="8a9ccf2c-cf95-42cc-a6cb-e6616c849abe"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_DateSample}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="264" y="150" width="90" height="15" uuid="2d49c224-e1aa-4755-88e0-a936074785e3"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_ClientMark}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="264" y="165" width="90" height="15" uuid="eb55028c-3788-4338-95cb-523009e38156"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Colour}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="264" y="180" width="90" height="15" uuid="7a47660a-27a7-4094-a6ee-5d890043f2bc"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Materia}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="354" y="0" width="90" height="15" uuid="70c2b67a-2dde-4bf4-b57c-f8216af27ae3"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_SampleNo}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="354" y="15" width="90" height="15" uuid="5069ecc1-8368-4262-8623-08d5e7e5e588"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_SamplingContainer}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="354" y="30" width="90" height="15" uuid="50c91fcf-9e48-4d09-bdd9-2d15fe6439ff"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_MassOfSample}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="354" y="45" width="90" height="15" uuid="f90b29da-3529-47a1-9a06-6bd14b1ffa08"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_MoistOfSample}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="354" y="60" width="90" height="15" uuid="5d4d7ebc-6b39-466a-9fdd-4adb84791a48"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Road1}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="354" y="75" width="90" height="15" uuid="a8a972d2-71a4-4c40-bf0a-fab8fe1639e0"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Road2}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="354" y="90" width="90" height="15" uuid="8c08aad5-ab92-4ce9-a0ec-bf6f018bdd39"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Chainage}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="354" y="105" width="90" height="15" uuid="6ae2bdf1-67e6-43e3-919d-d74e7c1c983b"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Layer}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="354" y="120" width="90" height="15" uuid="7ca95fe5-75c0-40e5-badb-6c213cf48471"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_DateRec}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="354" y="135" width="90" height="15" uuid="f5b93712-f864-4b9f-b10c-18e375342c5d"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_DateSample}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="354" y="150" width="90" height="15" uuid="db731b6a-8b86-4a1e-93b8-4b248dc30970"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_ClientMark}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="354" y="165" width="90" height="15" uuid="fece5661-d9ef-4f6f-a725-31eed0c8266a"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Colour}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="354" y="180" width="90" height="15" uuid="ca38837a-b103-4891-93ce-859fc8e19a95"/>
+					<box>
+						<topPen lineWidth="0.75"/>
+						<bottomPen lineWidth="0.75"/>
+						<rightPen lineWidth="0.75"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SMP_Materia}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="58" y="621" width="441" height="27" uuid="7b096f2c-9bde-4cc7-af10-3bf924a639be"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textField>
+					<reportElement x="100" y="13" width="341" height="14" uuid="555143c3-ce0a-4851-9984-25fcec8f211f"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{RP_REM}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="14" width="100" height="13" uuid="e425ebd7-e11b-4422-846d-d95a4c786a22"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[Remarks and Notes :]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="1" width="100" height="13" uuid="b55aa951-9220-4067-9fca-e588ccb729ba"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[Deviation from Test Method :]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="100" y="0" width="341" height="14" uuid="5d28773d-5030-4926-8ced-c7a9bae0c755"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{RP_DEV}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="0" y="0" width="572" height="81" uuid="797a4316-e311-42ed-a5e0-ce88de3cf848"/>
+				<image>
+					<reportElement x="12" y="2" width="90" height="77" uuid="6d1e32b4-9e90-4bf6-98a3-655e703145e1"/>
+					<imageExpression><![CDATA["C:\\Users\\Juice\\Documents\\NetBeansProjects\\CiviSoilLabDB_2\\src\\GUI\\ICONS\\Blue_Lab_Science_Technology_Logo_Designs__1_-removebg-preview-100x100.png"]]></imageExpression>
+				</image>
+				<textField>
+					<reportElement x="400" y="3" width="163" height="15" uuid="b52fa745-c81b-4d31-a454-88cf60558e7c"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{T_Branch Name}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="400" y="18" width="163" height="15" uuid="21f33831-892d-4e41-bd43-e18116c7461d"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{T_Branch Address}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="400" y="33" width="76" height="15" uuid="01183aa6-9f58-4e6d-bfd5-dbc14c3929a6"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{T_Cell}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="476" y="33" width="87" height="15" uuid="26419db7-ef0f-4ebe-8865-997eecd47dbb"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{T_Fax}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="400" y="63" width="163" height="15" uuid="8cbe9a9f-22ae-41fc-bc81-32f5c69c9429"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{T_Website}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="400" y="48" width="163" height="15" uuid="a36ab6f5-b2d8-46d1-90e1-9443a2252d57"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{T_Email}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<frame>
+				<reportElement x="58" y="652" width="441" height="93" uuid="696223e8-bd38-495f-a635-6251067edeeb"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<staticText>
+					<reportElement x="0" y="1" width="306" height="15" uuid="70da9664-3e5c-4a4c-83c4-67378fff44a8"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[Opinions and interpretations are not included in our scope of works.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="16" width="306" height="15" uuid="c251d180-5104-4821-a72b-a8206e83bf09"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[The samples were subjected to analysis according to (SANS)(TMH5)(DOT)(ASTM).]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="31" width="306" height="15" uuid="f8d807e7-58e2-486c-97fe-f79433787fc9"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[The test results reported relate to the samples tested.]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="46" width="306" height="15" uuid="e1a2f33c-abd6-4d3f-a1fa-dff397b621d2"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[Further use of the above information is not the responsibility or liability of CiviLab]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="61" width="306" height="15" uuid="75535714-d00e-4985-889e-00c0ff99ca59"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[Document may only be reproduced of published in their full context.]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="80" y="76" width="75" height="15" uuid="9cbf2d5a-ab11-4570-bc43-7ca516091378"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{RP_CAPTURER}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="76" width="80" height="15" uuid="377e673c-fb6c-41c7-a8b5-cc7d4506f09f"/>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[DReport compiled by :]]></text>
+				</staticText>
+				<frame>
+					<reportElement x="306" y="1" width="135" height="92" uuid="fc439776-26a1-450d-9ccd-ab820be6f349"/>
+					<box>
+						<leftPen lineWidth="1.0"/>
+					</box>
+					<textField>
+						<reportElement x="47" y="65" width="67" height="10" uuid="ca12c054-6b56-4ae2-bc0e-32cd22c9edc7"/>
+						<textElement textAlignment="Center" verticalAlignment="Middle">
+							<font fontName="Calibri" size="8"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{RP_SIGNETORY}]]></textFieldExpression>
+					</textField>
+					<line>
+						<reportElement x="47" y="54" width="67" height="1" uuid="f7a36288-3ffc-4bcc-957e-7ff8e828fd00"/>
+					</line>
+					<textField>
+						<reportElement x="47" y="55" width="67" height="10" uuid="c6e3bf1a-6d31-412e-9951-c0eccb60597d"/>
+						<textElement textAlignment="Center" verticalAlignment="Middle">
+							<font fontName="Calibri" size="8"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{RP_BRANCHMGR}]]></textFieldExpression>
+					</textField>
+				</frame>
+			</frame>
+			<frame>
+				<reportElement x="0" y="82" width="563" height="65" uuid="12768b38-011b-4dd1-9e6e-443d10636aac"/>
+				<staticText>
+					<reportElement x="0" y="0" width="85" height="14" uuid="46c818fb-cbfa-43e2-a689-9a4757e42ef8"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[Job Request No.:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="188" y="0" width="76" height="14" uuid="bf13e866-2552-4762-84d6-cc2fc1ac900a"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[Client Ref.No. :]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="85" y="0" width="103" height="14" uuid="c3178980-0f11-4dc1-adfc-efcbba9f0148"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{PH_Job}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="264" y="0" width="100" height="14" uuid="b3ee51b0-dd58-4024-b3e5-c9c2753f4d77"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{PH_TraceNo}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="364" y="0" width="100" height="14" uuid="898bdab3-60ef-4767-8951-c6c2039d599c"/>
+					<textElement textAlignment="Right">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[Date Reported]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="464" y="0" width="99" height="14" uuid="1dbd0e5e-a097-41e9-b646-757a8e34e86e"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{PH_Date Reported}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="188" y="25" width="44" height="15" uuid="f13fdfd5-d710-461f-a498-46d1a2f549b6"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<text><![CDATA[Project]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="232" y="25" width="132" height="15" uuid="0852cc53-ccc1-4020-80c5-884f9d32ed95"/>
+					<textElement>
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{PH_Project}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="188" y="50" width="176" height="15" uuid="110562d0-0cd1-4beb-a47e-9263ec0023f6"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Calibri" size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{PH_HEADER}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+</jasperReport>
